@@ -1,7 +1,78 @@
 # Demystify GenAI on AWS
-## When I started my AI journey on AWS - I got overwhalmed by the information and it took me sometime to figourout the mentalmap. This is 
-What is generative AI? 
+When embarking on my AI journey, I was overwhelmed by the abundance of information, and it took me considerable time to navigate and construct a clear mental map. 
 
-Generative AI is a type of artificial intelligence that can create new content and ideas, including conversations, stories, images, videos, and music. 
+This blog is entirely based on my personal experience and understanding, which continues to evolve as I delve deeper into the subject. However, I firmly believe that grasping the fundamentals and mastering the basics is essential before getting into more advanced concepts and drawing meaningful inferences, as is the case with any subject."
 
- 
+I am excited to share my experiences and insights with others. Today, let's begin with GenAI on AWS, the focal point of discussions in contemporary software solutions, particularly within the cloud domain.
+
+As you delve into GenAI, you might encounter various topics such as deep learning, natural language processing, computer vision, and more. Each of these areas plays a significant role in advancing AI technologies and applications. Exploring how GenAI can be leveraged within cloud solutions can lead to exciting possibilities and insights.
+
+Please feel free to share your thoughts, findings, and any challenges you come across during your exploration of GenAI. Remember that AI is an ever-evolving field, and sharing your experiences can contribute to the collective knowledge and understanding of this cutting-edge technology.
+
+I believe two key points are crucial when understanding any new concept or technology: a) comprehending what the technology is and b) understanding how this technology will be used or consumed (which refers to its practical use cases).
+
+First, let's explore a fascinating technology called GenAI, which stands for Generative AI. It's like having a super creative robot that functions as an artist or a musician. Unlike a regular robot that follows fixed rules, this one can generate original creations, such as drawings, stories, or even music! The second part focuses on the diverse consumers who leverage this remarkable technology for various use cases.
+
+As AWS is my primary domain of expertise, I will concentrate on showcasing what AWS has to offer in this area while explaining the concepts. This focus will enable me to present practical, hands-on examples using AWS AI/ML Services in my future blogs. Considering the rapid evolution of this field, it becomes imperative to stay updated on the new services being added or modified, thereby ensuring that AI remains easily accessible for end users to adopt and leverage.
+
+Now, let's attempt to answer a few fundamental questions from the AWS perspective and then delve deeper into each of these areas. By doing so, we'll gain a better understanding of how AWS makes GenAI both fantastic and enjoyable to use!
+
+**What is generative AI?**
+Generative AI is a type of artificial intelligence that can create new content and ideas, including conversations, stories, images, videos, and music.
+
+**What are foundation models (FM)?**
+Generative AI is powered by very large machine learning models that are pre-trained on vast collections of data, and are commonly referred to as foundation models, or FMs.
+
+**What types of foundation models are currently available?**
+There are currently three main foundation model types currently available:
+1. Text-to-text: These natural language processing models can summarise text, extract information, respond to questions, and create content such as blogs or product descriptions. An example is sentence auto-completion.
+2. Text-to-embeddings: These FMs compare user search bar input with index data and connect the dots between the two. The result is more accurate and relevant.
+3. Multimodal: These emerging foundation models can generate images based on a user's natural language text input.
+
+**What Generative AI solutions AWS currently offers?**
+AWS currently offers four main GenAI solutions for customers:
+- Amazon Bedrock (LLM to transform existing business function viz operations, customer support, marketing): The easiest way to build and scale generative AI applications with FMs.
+- Amazon - Titan Text(auto NLP), Titan Embeddings (search).
+- AI21 - Jurassic 2 (generate multilingual text).
+- Anthropic - Claude 2(automate Q&A, conversation).
+- Stability AI - Stable Diffusion(generate Images).
+- Cohere - Command and Embed (text generation 100+ languages).
+- AWS Inferentia and AWS Trainium Amazon Elastic Compute Cloud (Amazon EC2) instances: The best price-performance infrastructure for training and inference in the cloud.
+- Amazon CodeWhisperer (Developer Productivity): A built-in generative AI coding companion that helps customers build applications faster and more securely.
+- FMs with Amazon SageMaker JumpStart(DataScience Team, ML builders building FM): Access and fine-tuning of a wide selection of FMs with Amazon SageMaker.
+
+**What are the areas where these can be applied with the current offering?**
+Below are a few example scenarios that strongly correlate with generative AI opportunities.
+- Text: Summarising or automating content creation.
+- Images: Generating images, creating avatars.
+- Audio: Summarising, generating, or converting text into audio.
+- Video: Generating or editing videos.
+- Code: Generating code, optimising code.
+- Chatbots: Automating customer service and more.
+- ML platforms: Applications and ML platforms.
+- Search: AI-powered insights or vector search.
+- Gaming: Generative AI gaming studios or applications.
+- Data: Synthesizing, designing, collecting, or summarising data.
+
+**What are the business use cases which can leverage these AI solutions?**
+Below, I've listed some of the business use cases that can make use of the existing AI solutions. Please note that this is not an exhaustive list, but it serves to provide context for some of the potential business use cases.
+- Enhancing customer experience:
+  - Chatbots and virtual assistance.
+  - Agent assist.
+  - Contact centre analytics.
+- Employee or Developer productivity:
+  - Conversational search.
+  - Text, image, and video generation.
+  - Code generation.
+  - Text summarization.
+- Improving business operations:
+  - Document processing.
+  - Content moderation.
+  - Anomaly detection.
+- Enhancing creativity:
+  - Image generation for web pages.
+  - Storyboarding.
+  - Image enhancement.
+  - Animation creation.
+
+I hope you now have a good understanding of GenAI and the available services in AWS. As mentioned earlier, we will have follow-on discussions that delve into specific areas of AI. Thank you for reading, and I hope you found this information informative and valuable.
